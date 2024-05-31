@@ -7,7 +7,7 @@
 Plugin name: Pays
 Plugin uri: https://github.com/e0958030
 Version: 1.0.0
-Description: Permet d'afficher les destinations qui répondent à certains critères
+Description: Afficher des pays correspondant à la catégorie "pays"
 */
 function cam_enqueue()
 {
