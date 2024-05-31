@@ -9,6 +9,7 @@
 # Résumé des étapes éxécutées
 - Création d'une nouvelle catégorie pays
 - Générer dynamiquement des boutons avec la fonction REST API pour chaque catégorie (non complétée)
+- Désolée je n'ai pas réussi à faire quoique ce soit
 - Galerie d'images
 - Ajout de deux vagues
 - Adaptation du style similaire au template-conference

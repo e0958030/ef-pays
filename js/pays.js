@@ -7,7 +7,7 @@
       elm.addEventListener('mousedown', function(){
         const id = elm.id.split("_")[1];
         console.log(id);
-        let url = `https://gftnth00.mywhc.ca/tim14/wp-json/wp/v2/posts?categories=${id}`;
+        let url = `https://gftnth00.mywhc.ca/tim14/wp-json/wp/v2/posts`;
         mon_fetch(url);
       });
     }
@@ -37,7 +37,7 @@
         // Par exemple, extraire les titres des articles comme dans l'exemple précédent
 
           restapi.innerHTML = '';
-          data.forEach(function (article) {
+          data.forEach(function (posts) {
           let titre = article.title.rendered;
           let contenu = article.content.rendered;
           console.log(titre);
